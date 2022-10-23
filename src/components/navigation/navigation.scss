@@ -1,0 +1,30 @@
+@media screen and (min-width: 992px){
+    .Navigation{
+        height: 12vh;
+        display: flex;
+        font-family: 'Bungee Inline', cursive;
+
+        .logo{
+            width: 40%;
+            height: 12vh;
+            display: flex;
+            align-items: center;
+
+            h1{
+                margin-left: 69px;
+            }
+        }
+
+        .bar{
+            width: 60%;
+            height: 12vh;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+
+            h3, .navBtn{
+                font-size: 14px;
+            }
+        }
+    }
+}

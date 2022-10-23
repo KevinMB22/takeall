@@ -1,0 +1,55 @@
+@media screen and (min-width:992px){
+    .Home{
+        
+    
+
+        .Convert{
+            height: 86vh;
+            background-color: #b9b9b9;
+
+            .titleConvert{
+                height: 22vh;
+                display: flex;
+                justify-content: center;
+                align-items: flex-end;
+
+            }
+
+            .ActualConvert{
+                height: 7vh;
+                display: flex;
+                justify-content: center;
+               
+                .ActualConvIndice{
+                    width: 130px;
+                    height: 40px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    color: white;
+                    border-radius: 7vh;
+                    background-color: rgb(119, 0, 0);
+                }
+            }
+
+            .SearchConvert{
+                height: 50vh;
+
+                form{
+                    height: 40vh;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    align-items: center;
+
+                    .searchField{
+                        width: 47%;
+                        height: 6vh;
+                        border: 2px solid black;
+                        background-color: transparent;
+                    }
+                }
+            }
+        }
+    }
+}
