@@ -1,7 +1,9 @@
 import './App.css';
-import Navigation from './components/navigation/Navigation';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Navigation from './components/navigation/Navigation';
+import Footer from './components/footer/Footer';
 import Home from './views/public/home/Home';
+
 
 function App() {
   return (
@@ -11,9 +13,10 @@ function App() {
       <Routes>
         <Route exact path='/' element={<Home/>}></Route>
       </Routes>
+      <Footer/>
       </BrowserRouter>
       
-    
+
     </div>
   );
 }

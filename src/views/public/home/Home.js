@@ -1,4 +1,5 @@
 import React from "react";
+import icon1 from '../../../assets/icon1.svg'
 import './home.scss';
 
 function Home(){
@@ -27,10 +28,10 @@ function Home(){
                         <div className="Tiktok Indice">
                             TIKTOK
                         </div>
-                        <div className="Tiktok Indice">
+                        <div className="Twitter Indice">
                             TWITTER
                         </div>
-                        <div className="Tiktok Indice">
+                        <div className="Insta Indice">
                             INSTAGRAM
                         </div>
                     </div>
@@ -71,6 +72,65 @@ function Home(){
                         <div className="imgStep"></div>
                     </figure>
                 </figure>
+            </div>
+
+            <div className="AdvantageTake">
+                <div className="contaierItemAd">
+                    <article className="itemAd">
+                        <figure className="titleItemAd">
+                            <img src={icon1}/>
+                            <h4>CONVERTISSEUR YOUTUBE</h4>
+                        </figure>
+                        <figure className="dataItemAd">
+                            <p>Convertisseur YouTube mp3 en 2 clics ! Gratuitement dans le format que vous avez choisi MP3, MP4 et bien d'autres!</p>
+                        </figure>
+                    </article>
+                    <article className="itemAd">
+                        <figure className="titleItemAd">
+                            <img src={icon1}/>
+                            <h4>CONVERTISSEUR YOUTUBE</h4>
+                        </figure>
+                        <figure className="dataItemAd">
+                            <p>Convertisseur YouTube mp3 en 2 clics ! Gratuitement dans le format que vous avez choisi MP3, MP4 et bien d'autres!</p>
+                        </figure>
+                    </article>
+                    <article className="itemAd">
+                        <figure className="titleItemAd">
+                            <img src={icon1}/>
+                            <h4>CONVERTISSEUR YOUTUBE</h4>
+                        </figure>
+                        <figure className="dataItemAd">
+                            <p>Convertisseur YouTube mp3 en 2 clics ! Gratuitement dans le format que vous avez choisi MP3, MP4 et bien d'autres!</p>
+                        </figure>
+                    </article>
+                    <article className="itemAd">
+                        <figure className="titleItemAd">
+                            <img src={icon1}/>
+                            <h4>CONVERTISSEUR YOUTUBE</h4>
+                        </figure>
+                        <figure className="dataItemAd">
+                            <p>Convertisseur YouTube mp3 en 2 clics ! Gratuitement dans le format que vous avez choisi MP3, MP4 et bien d'autres!</p>
+                        </figure>
+                    </article>
+                    <article className="itemAd">
+                        <figure className="titleItemAd">
+                            <img src={icon1}/>
+                            <h4>CONVERTISSEUR YOUTUBE</h4>
+                        </figure>
+                        <figure className="dataItemAd">
+                            <p>Convertisseur YouTube mp3 en 2 clics ! Gratuitement dans le format que vous avez choisi MP3, MP4 et bien d'autres!</p>
+                        </figure>
+                    </article>
+                    <article className="itemAd">
+                        <figure className="titleItemAd">
+                            <img src={icon1}/>
+                            <h4>CONVERTISSEUR YOUTUBE</h4>
+                        </figure>
+                        <figure className="dataItemAd">
+                            <p>Convertisseur YouTube mp3 en 2 clics ! Gratuitement dans le format que vous avez choisi MP3, MP4 et bien d'autres!</p>
+                        </figure>
+                    </article>
+                </div>     
             </div>
         </div>
     )

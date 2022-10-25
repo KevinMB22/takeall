@@ -1,11 +1,12 @@
 import React from "react";
 import './navigation.scss';
+import Logo from '../../assets/TakeAll.svg'
 
 function Navigation(){
     return(
         <nav className="Navigation">
             <figure className="logo">
-                <h1>TAKEALL</h1>
+                <img src={Logo} />                
             </figure>
             <figure className="bar">
                 <h3>ACCUEIL</h3>
