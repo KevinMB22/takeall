@@ -1,0 +1,350 @@
+@media screen and (max-width: 991px){
+    .Convert{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 90vh;
+
+        .titleConvert{
+            width: 88%;
+            height: 22vh;
+            display: flex;
+            justify-content: center;
+            align-items: flex-end;
+
+            h1{
+                text-align: center;
+                font-size: 1.6rem;
+            }
+        }
+
+        .ActualConvert{
+            width: 88%;
+            height: 11vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            justify-content: center;
+           
+            .ActualConvIndice{
+                width: 150px;
+                height: 50px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                color: white;
+                border-radius: 7vh;
+                font-size: 20px;
+                background-color: rgb(119, 0, 0);
+            }
+        }
+
+        .SearchConvert{
+            width: 100%;
+            height: 12vh;
+            display: flex;
+
+            justify-content: center;
+
+            form{
+                width: 80%;
+                height: 16vh;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+
+                .searchField{
+                    width: 60%;
+                    height: 50px;
+                    font-family: 'Jockey One', sans-serif;
+                    border: 2px solid black;
+                    background-color: transparent;
+
+                    &[type="text"]{
+                        padding: 0 10px;
+                        font-size: 1.2rem;
+    
+                    }
+
+                }
+
+                .submitBtnDown{
+                    width: 30%;
+                    height: 50px;
+                    font-size: 13px;
+                    font-weight: bolder;
+                    border: 2px solid black;
+                    background-color: transparent;
+                    transition: 0.3s ease;
+
+                    &:hover{
+                        background-color: black;
+                        color: #d8d8d8;
+                    }
+                }
+            }
+        }
+
+        .containerSources{
+            width: 100%;
+            height: 20vh;
+            display: flex;
+            margin-top: 30px;
+            flex-direction: column;
+            justify-content: end;
+            align-items: center;
+
+
+            .titleSource{
+                width: 80%;
+                height: 6vh;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                
+                h3{
+                    text-align: center;
+                    font-size: 20px;
+                }
+            }
+
+            .contIndice{
+                width: 70%;
+                height: 14vh;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+
+                .Twitter{
+                    transition: 0.4s ease;
+                    
+                    &:hover{
+                        color: #00acee;
+                        border: 2px solid #00acee;
+                    }
+                }
+
+                .Insta{
+                    transition: 0.4s ease;
+                    &:hover{
+                        color: #E1306C;
+                        border: 2px solid #E1306C;
+                        
+                    }
+                }
+
+                .Tiktok{
+                    transition: 0.4s ease;
+                    
+                    &:hover{
+                        color: #9c1212;
+                        border: 2px solid #9c1212;
+                    }
+                }
+                
+                .Indice{
+                    width: 72px;
+                    height: 40px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    color: white;
+                    border-radius: 7vh;
+                    font-size: 15px;
+                    border: 2px solid black;
+                    color: black;
+                    cursor: pointer;
+                }
+
+            }
+            
+        }
+
+        .scrollLine{
+            width: 30px;
+            height: 16vh;
+            display: flex;
+            justify-content: space-around;
+            align-items: flex-end;
+
+            .lineVertical{
+                width: 3px;
+                height: 2.2vh;
+                background-color: black;
+            }
+        }
+    }
+}
+
+
+@media screen and (min-width: 992px){
+    .Convert{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 90vh;
+
+        .titleConvert{
+            width: 88%;
+            height: 22vh;
+            display: flex;
+            justify-content: center;
+            align-items: flex-end;
+        }
+
+        .ActualConvert{
+            width: 88%;
+            height: 11vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            justify-content: center;
+           
+            .ActualConvIndice{
+                width: 180px;
+                height: 60px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                color: white;
+                border-radius: 7vh;
+                font-size: 20px;
+                background-color: rgb(119, 0, 0);
+            }
+        }
+
+        .SearchConvert{
+            width: 100%;
+            height: 12vh;
+            display: flex;
+
+            justify-content: center;
+
+            form{
+                width: 45%;
+                height: 16vh;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+
+                .searchField{
+                    width: 75%;
+                    height: 60px;
+                    font-family: 'Jockey One', sans-serif;
+                    border: 2px solid black;
+                    background-color: transparent;
+
+                    &[type="text"]{
+                        padding: 0 10px;
+                        font-size: 18px;
+    
+                    }
+
+                }
+
+                .submitBtnDown{
+                    width: 20%;
+                    height: 60px;
+                    font-size: 16px;
+                    font-weight: bolder;
+                    border: 2px solid black;
+                    background-color: transparent;
+                    transition: 0.3s ease;
+
+                    &:hover{
+                        background-color: black;
+                        color: #d8d8d8;
+                    }
+                }
+            }
+        }
+
+        .containerSources{
+            width: 35%;
+            height: 20vh;
+            display: flex;
+            margin-top: 30px;
+            flex-direction: column;
+            justify-content: end;
+            align-items: center;
+
+
+            .titleSource{
+                width: 100%;
+                height: 6vh;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                
+                h3{
+                    font-size: 22px;
+                }
+            }
+
+            .contIndice{
+                width: 68%;
+                height: 14vh;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+
+                .Twitter{
+                    transition: 0.4s ease;
+                    
+                    &:hover{
+                        color: #00acee;
+                        border: 2px solid #00acee;
+                    }
+                }
+
+                .Insta{
+                    transition: 0.4s ease;
+                    &:hover{
+                        color: #E1306C;
+                        border: 2px solid #E1306C;
+                        
+                    }
+                }
+
+                .Tiktok{
+                    transition: 0.4s ease;
+                    
+                    &:hover{
+                        color: #9c1212;
+                        border: 2px solid #9c1212;
+                    }
+                }
+                
+                .Indice{
+                    width: 130px;
+                    height: 55px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    color: white;
+                    border-radius: 7vh;
+                    font-size: 19px;
+                    border: 2px solid black;
+                    color: black;
+                    cursor: pointer;
+                }
+
+            }
+            
+        }
+
+        .scrollLine{
+            width: 30px;
+            height: 16vh;
+            display: flex;
+            justify-content: space-around;
+            align-items: flex-end;
+
+            .lineVertical{
+                width: 3px;
+                height: 2.2vh;
+                background-color: black;
+            }
+        }
+    }
+}

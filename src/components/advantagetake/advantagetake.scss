@@ -1,0 +1,48 @@
+@media screen and (min-width: 992px){
+    
+    .AdvantageTake{
+        height: 90vh;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+
+        .contaierItemAd{
+            width: 76%;
+            height: 70vh;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
+            
+            .itemAd{
+                width: 400px;
+                height: 30vh;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                box-shadow: -3px -3px 7px #ffffff73, 3px 3px 5px rgba(94,104, 121, .288);
+
+                .titleItemAd{
+                    width: 80%;
+                    height: 12vh;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+
+                    img{
+                        width: 60px;
+                        height: auto;
+                    }
+                }
+
+                .dataItemAd{
+                    width: 80%;
+                    height: 12vh;
+                }
+            }
+        }
+
+       
+    }
+}

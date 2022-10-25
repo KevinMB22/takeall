@@ -1,0 +1,64 @@
+@media screen and (min-width: 992px){
+    .HowWork{
+        height: 170vh;
+        background-color: #fafafa;
+    
+
+        .titleHowWork{
+            height: 15vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: 'Bungee Inline', cursive;
+
+            h1{
+                font-size: 37px;
+            }
+
+        }
+
+        .contentHowWork{
+            height: 50vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            .step{
+                width: 74%;
+                height: 33vh;
+
+                .titleStep{
+                    width: 45%;
+                    height: 9vh;
+                    display: flex;
+                    justify-content: start;
+                    align-items: center;
+
+                    .circleStep{
+                        width: 6vh;
+                        height: 6vh;
+                        border-radius: 6vh;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        border: 3px solid black;
+
+                        font-size: 33px;
+                    }
+                }
+
+                .imgStep{
+                    width: 32%;
+                    height: 24vh;
+                    background-color: brown;
+                }
+            }
+
+            .right{
+                display: flex;
+                flex-direction: column;
+                align-items: flex-end;
+            }
+        }
+    }
+}
