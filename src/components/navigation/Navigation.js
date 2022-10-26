@@ -13,7 +13,7 @@ function Navigation(){
             </article>
 
             <figure className="logo">
-                <img src={Logo} />                
+            <Link className="navLogo" to={'/'}><motion.h1 initial={{opacity:0, x:-100}} animate={{opacity:1, x:0}} transition={{delay:0.5}}>TAKEALL</motion.h1></Link>            
             </figure>
             <figure className="bar">
                <Link className="navBtn" to={'/'}><motion.h3 initial={{ opacity: 0 }} animate={{opacity: 1}} transition={{delay: 0.7}}>ACCUEIL</motion.h3></Link>
